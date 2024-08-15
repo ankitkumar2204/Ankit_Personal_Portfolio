@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Montserrat:wght@600&family=Poppins:ital,wght@1,300&family=Rajdhani:wght@300&family=Roboto+Slab:wght@700&family=Roboto:wght@300&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 2, 47);
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    height: 90px;
+    background-color: rgb(55, 12, 92);
+}
+
+nav.container1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(98, 98, 129);
+    font-size: 1.1em;
+}
+
+
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.container1 {
+    font-size: 25px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.container3>div {
+    width: 30%;
+}
+
+.container3 .buttons {
+    padding: 50px 0;
+}
+
+.container3 .buttons a {
+    text-decoration: none;
+}
+
+.container3 .btn {
+    padding: 12px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container3 .btn:hover {
+    background-color: blue;
+}
+
+.section1 {
+    font-size: 2.5em;
+}
+
+.section2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ankit {
+    color: rgb(212, 1, 173);
+}
+
+#element {
+    color: rgb(212, 1, 173);
+}
+
+.Bharat {
+    color: #00dd81;
+}
+
+.section3 {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.section3 h1 {
+    font-size: 2em;
+}
+
+Main hr {
+    border: 0;
+    background: rgb(13, 13, 110);
+    height: 0.2em;
+    margin: 20px 40px;
+}
+
+.section3 .horizontal {
+    background: rgb(106, 30, 30);
+    width: 70vw;
+    height: 4px;
+    margin: 50px 121px 245px 120px;
+    display: flex;
+}
+
+.section3 .verticle {
+    height: 75px;
+    width: 4px;
+    background-color: aqua;
+    margin: 0 180px;
+}
+
+.image-web {
+    width: 25px;
+    position: relative;
+    top: -30px;
+    left: -9px;
+}
+
+.verticle-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+}
+
+.verticle-text {
+    position: relative;
+    color: gray;
+    width: 150px;
+    top: 60px;
+    font-size: 10px;
+}
+
+/*Education*/
+
+.education {
+    width: 80%;
+    padding: 35px 10%;
+}
+
+.title-education h2 {
+    color: aqua;
+    padding: 32px 0 25px 40px;
+    font-size: 50px;
+}
+
+.education-contents {
+    padding: 0 30px;
+    border-left: 3px solid green;
+    color: #ffffff;
+}
+
+.education-box {
+    position: relative;
+    padding: 20px;
+    border: 2px solid violet;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+.education-box:hover {
+    box-shadow: 0 3px 12px 0 #ccc;
+    border: 1px solid transparent;
+}
+
+.education-contents .education-box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: rgb(57, 57, 195);
+    border: 2.5px solid white;
+}
+
+
+/*skill*/
+
+.my-skill {
+    text-align: center;
+}
+
+.skill2 {
+    margin: 5px;
+}
+
+.skill {
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(to right, red, yellow);
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 80%;
+}
+
+.Bootstrap {
+    width: 70%;
+}
+
+.JS {
+    width: 40%;
+}
+
+.Cplusplus {
+    width: 70%;
+}
+
+.MS {
+    width: 70%;
+}
+
+.SQL {
+    width: 65%;
+}
+
+.WordPress {
+    width: 80%;
+}
+
+
+/*Projects*/
+
+.projects {
+    padding: 15px 20%;
+    padding-bottom: 100px;
+}
+
+.projects .heading {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #00de8c;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 50px;
+}
+
+.projects .box-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.projects .box-projects .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    list-style: none;
+    background-color: rgb(60, 132, 105);
+}
+
+.projects .box-projects .box a {
+    text-decoration: none;
+}
+
+.projects .box-projects .box img {
+    height: 80px;
+}
+
+.projects .box-projects .box h3 {
+    color: #0b0b0b;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.projects .box-projects .box p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.projects .box-projects .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #a10ae2;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 8px 25px;
+}
+
+.projects .box-projects .box .btn:hover {
+    letter-spacing: 1px;
+    background-color: rgb(63, 11, 234);
+}
+
+.projects .box-projects .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.03);
+}
+
+.my-blog p {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(91, 43, 193);
+    border: 3px solid rgb(92, 134, 250);
+    padding: 30px;
+    margin: 20px;
+}
+
+.my-blog {
+    padding: 10px 50px 0 50px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.title-blog h2 {
+    text-align: center;
+    color: #00dd81;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #ff10cf;
+}
+
+.my-skill {
+    text-align: center;
+    color: #00dd81;
+    font-size: 50px;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #23f02e;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact1 h2 {
+    font-size: 35px;
+    margin-top: 15px;
+    color: #00de8c;
+}
+
+
+/*Media Query*/
+
+
+@media (max-width: 1000px) {
+    nav {
+        padding: 0 40px 0 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    nav .menu-btn i {
+        display: block;
+    }
+
+    #click:checked~.menu-btn i:before {
+        content: "\f00d";
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: #000000;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    #click:checked~ul {
+        left: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    nav ul li a {
+        width: 100%;
+        color: #ff007b;
+        margin-left: -100%;
+        display: block;
+        font-size: 20px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    #click:checked~ul li a {
+        margin-left: 0px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .section2 img {
+        width: 100%;
+        height: 458px;
+        padding: 0 0 273px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

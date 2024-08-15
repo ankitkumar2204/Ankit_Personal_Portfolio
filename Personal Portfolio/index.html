@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit-Portfolio</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container1">Ankit's Portfolio</div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="work-experince.html">Experience</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <Main>
+        <section class="container3">
+            <div class="section1">
+                Hi, My name is <span class="ankit">Ankit</span>
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Ankit_Resume.pdf" class="btn">Resume</a>
+                    <a href="https://github.com/ankitkumar2204" class="btn">Github</a><br>
+                    <a href="https://www.linkedin.com/in/ankit-kumar224/" class="btn">LinkedIn</a>
+                    <a href="contact.html" class="btn">Contact</a>
+                </div>
+            </div>
+            <div class="section2">
+                <img src="Ankit.png" alt="Ankit">
+            </div>
+        </section>
+
+
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Front-End Web Developer.', 'Metallurgical Engineer.'],
+                typeSpeed: 50,
+            });
+        </script>
+</body>
+
+</html>
